@@ -686,6 +686,12 @@ if (typeof globalThis !== 'undefined') {
 
     function setupPreview() {
       hideError();
+      hideResultBadge();
+      hideTryNewButton();
+      downloadBtn.classList.add('hidden');
+      processBtn.disabled = false;
+      processBtn.classList.remove('hidden');
+      processBtn.innerHTML = config.processLabel || 'Erase Watermark';
 
       // Gemini tool uses upload-prompt + editor-container inside drop-zone
       if (uploadPrompt) uploadPrompt.classList.add('hidden');
@@ -712,6 +718,13 @@ if (typeof globalThis !== 'undefined') {
 
       downloadBtn.classList.add('hidden');
       hideResultBadge();
+      
+      // Hide slider until processed
+      const compSlider = document.getElementById('comparison-slider');
+      const editorWrap = document.querySelector('.editor-wrap');
+      
+      if (compSlider) compSlider.classList.add('hidden');
+      if (editorWrap) editorWrap.classList.remove('hidden');
 
       // Setup canvas sizing and draw preview at original dimensions
       canvas.width = originalImage.naturalWidth;
@@ -839,7 +852,8 @@ if (typeof globalThis !== 'undefined') {
 
     function hideResultBadge() {
       if (resultBadge) {
-        resultBadge.classList.add('hidden');
+        resultBadge.remove();
+        resultBadge = null;
       }
     }
 
@@ -912,6 +926,7 @@ if (typeof globalThis !== 'undefined') {
       hideTryNewButton();
       hideError();
     }
+
 
     // ========= Error Display =========
     function showError(msg) {
