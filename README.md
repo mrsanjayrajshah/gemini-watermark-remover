@@ -67,10 +67,6 @@ Since this project runs 100% client-side, no server setup or node build step is 
    ```bash
    npx serve .
    ```
-
-3. **Deploy to GitHub Pages**:
-   Simply push `index.html`, `script.js`, and `assets/` to your `main` branch and enable **GitHub Pages** under repository settings.
-
 ---
 
 ## 👤 Developer & Credits
