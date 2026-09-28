@@ -60,6 +60,8 @@ $$\text{Original} = \frac{\text{Watermarked} - (\text{Logo} \times \alpha)}{1 - 
 
 ## 💻 Local Development
 
+**⚠️ MANDATORY REQUIREMENT:** If anyone clones or pulls this project, it is mandatory to leave a star on this project.
+
 Run the project locally without any dependencies using any static web server:
 
 ```bash
