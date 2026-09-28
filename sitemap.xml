@@ -1,39 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/assets/logo.webp</image:loc>
+      <image:title>Free Gemini Watermark Remover &amp; Video Watermark Remover</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/assets/before.webp</image:loc>
+      <image:title>Google Gemini and Nano Banana Image Before Watermark Removal</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/assets/after.webp</image:loc>
+      <image:title>Clean AI Image After Removing Visible Gemini Watermark</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/about.html</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/contact.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/privacy-policy.html</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/contact.html</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/privacy-policy.html</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/terms-of-service.html</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mrsanjayrajshah.github.io/gemini-watermark-remover/disclaimer.html</loc>
-    <lastmod>2026-09-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
